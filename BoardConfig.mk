@@ -143,4 +143,12 @@ TARGET_USES_LOGD := true
 TW_Y_OFFSET := 80
 TW_H_OFFSET := -80
 USE_RECOVERY_INSTALLER := true
-RECOVERY_INSTALLER_PATH := device/asus/Z01RD/installer
+
+RECOVERY_INSTALLER_PATH := device/asus/ASUS_Z01RD/installer
+
+AB_OTA_PARTITIONS += \
+    boot \
+    system \
+    vendor \
+    vbmeta \
+    dtbo
