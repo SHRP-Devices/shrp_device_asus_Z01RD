@@ -25,9 +25,6 @@ $(call inherit-product, vendor/omni/config/common.mk)
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/asus/ASUS_Z01RD/device.mk)
 
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.hardware.keystore=sdm845
-
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := omni_Z01RD
 PRODUCT_DEVICE := Z01RD
