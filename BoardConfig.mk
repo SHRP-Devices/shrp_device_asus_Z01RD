@@ -183,3 +183,8 @@ SHRP_DEVICE_TYPE := A_B
 # SHRP Padding Flag (Only for rounded corner devices.)
 SHRP_STATUSBAR_RIGHT_PADDING := 40
 SHRP_STATUSBAR_LEFT_PADDING := 40
+
+# SHRP 2.3 Flags
+SHRP_OFFICIAL := true
+SHRP_DARK := true
+SHRP_EXPRESS := true
