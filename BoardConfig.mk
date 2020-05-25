@@ -176,15 +176,10 @@ SHRP_FLASH := 1
 
 # Max Brightness of LED (Optional)
 SHRP_FLASH_MAX_BRIGHTNESS := 200
-# Check your device's recovery path, dont use blindly
 SHRP_REC := DUMMY
-# Use this flag only if your device is A/B
 SHRP_AB := true
-# Recovery Type (It can be treble,normal,SAR) [Only for About Section]
 SHRP_REC_TYPE := Treble
-# Recovery Type (It can be A/B or A_only) [Only for About Section]
-SHRP_DEVICE_TYPE := A_B
-# SHRP Padding Flag (Only for rounded corner devices.)
+SHRP_DEVICE_TYPE := A/B
 SHRP_STATUSBAR_RIGHT_PADDING := 40
 SHRP_STATUSBAR_LEFT_PADDING := 40
 
