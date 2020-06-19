@@ -183,3 +183,6 @@ SHRP_OFFICIAL := true
 SHRP_DARK := true
 SHRP_EXPRESS := true
 SHRP_NOTCH := true
+
+# Force mount system in /system despite SAR policy, useful for maintaining backwards compatibility and/or Samsung devices.
+SHRP_NO_SAR_AUTOMOUNT := true
