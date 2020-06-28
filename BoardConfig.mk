@@ -150,18 +150,13 @@ AB_OTA_PARTITIONS += \
     dtbo
 
 # SHRP Parameters
-# Path of your SHRP Tree
 SHRP_PATH := device/asus/ASUS_Z01RD
-# Maintainer name
 SHRP_MAINTAINER := Aryan_Arora
-# Device codename
 SHRP_DEVICE_CODE := Z01RD
-# put this 0 if device has no EDL mode
 SHRP_EDL_MODE := 1
 SHRP_EXTERNAL := /external_sd
 SHRP_INTERNAL := /sdcard
 SHRP_OTG := /usb_otg
-# Put 0 to disable flashlight
 SHRP_FLASH := 1
 
 # These are led paths, find yours then put here (Optional)
@@ -183,3 +178,4 @@ SHRP_STATUSBAR_LEFT_PADDING := 40
 SHRP_OFFICIAL := true
 SHRP_DARK := true
 SHRP_EXPRESS := true
+SHRP_NOTCH := true
