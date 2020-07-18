@@ -150,7 +150,7 @@ AB_OTA_PARTITIONS += \
     dtbo
 
 # SHRP Parameters
-SHRP_PATH := device/asus/ASUS_Z01RD
+SHRP_PATH := device/asus/Z01RD
 SHRP_MAINTAINER := Aryan_Arora
 SHRP_DEVICE_CODE := Z01RD
 SHRP_EDL_MODE := 1
