@@ -14,7 +14,7 @@ env:
   # Your Device's Vendor name as in used inside DT. Example: xiaomi, samsung, asus, etc.
   CODENAME: "Z01RD"
   # Your Device's Codename as in used inside DT." Example: nikel, phoenix, ginkgo, etc.
-  KERNEL_LINK: "https://github.com/AruAA/kernel_z01r"
+  KERNEL_LINK: ""
   # Kernel repo link with optional -b branch. Only for building kernel from source. Ignore if using prebuilt.
   TARGET: "bootimage"
   # Set as recoveryimage (or bootimage if no recovery partition avaiable)
